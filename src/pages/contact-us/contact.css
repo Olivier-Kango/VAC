@@ -3,7 +3,7 @@
     background: linear-gradient(var(--gradient)), url(./assets/logo-color.png);
     background-attachment: fixed;
     background-size: cover;
-    height: 50vh;
+    height: var(--header-vh);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,8 +18,17 @@
 
   .information_container {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
+  .information_container h1 {
+    color: var(--accent-clr);
+  }
+
+  /* Form */
   form {
     background-color: var(--accent-clr);
     padding: 1rem;

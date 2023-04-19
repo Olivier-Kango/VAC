@@ -24,7 +24,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="home_header_img_container">
+        <div className="home_header_img_container home_header_img">
           <img src={Header_img} alt="" />
         </div>
       </div>
@@ -42,7 +42,7 @@ const Home = () => {
             <p>We strive for excellent rights for all</p>
 
             <Link className="home_link" to="/AOW">
-              Read More
+              View More
             </Link>
           </div>
         </div>

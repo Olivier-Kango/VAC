@@ -4,7 +4,8 @@
     display: grid;
 
     grid-template-columns: 100%;
-    background-color: var(--main-clr);
+    background-color: var(--accent-clr);
+    box-shadow: 0 -5px 5px 1px var(--main-clr);
     color: var(--light);
   }
 
@@ -31,6 +32,26 @@
   .quick_links_sub_container .quick_links_item {
     color: var(--light-accent);
     text-decoration: none;
+  }
+
+  /* Copyright */
+  .copyright {
+    background-color: var(--accent-clr);
+    color: var(--light);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: var(--rem);
+    border-top: 2px solid var(--light);
+  }
+
+  .copyright a {
+    color: var(--light-accent);
+    transition: var(--transition-1);
+  }
+
+  .copyright a:hover {
+    color: rgb(3, 128, 9);
   }
 }
 

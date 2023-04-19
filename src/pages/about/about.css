@@ -13,19 +13,16 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 50vh;
+    height: var(--header-vh);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-
-  .about_header_container h1 {
     color: var(--light);
   }
 
-  .about_header_container p {
-    color: var(--light-accent);
+  .history_content h1 {
+    color: var(--accent-clr);
   }
 
   .about_text_container {
