@@ -6,6 +6,10 @@ html {
   font-family: sans-serif;
 }
 
+h1 {
+  font-family: var(--ff-primary);
+}
+
 :root {
   --main-clr: #000000;
   --light: #fffffff3;
@@ -15,8 +19,8 @@ html {
 
   --gradient: rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85);
 
-  --ff-primary: "Bebas Neue", cursive;
-  --ff-secondary: "Prompt", sans-serif;
+  --ff-primary: "Roboto Condensed", sans-serif;
+  --ff-secondary: "Roboto Condensed", sans-serif;
 
   --half-rem: 0.5rem;
   --rem: 1rem;
