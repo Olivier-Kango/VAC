@@ -1,0 +1,42 @@
+*,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+:root {
+  --main-clr: #000000;
+  --light: #fffffff3;
+  --light-accent: #8d8686f3;
+  --accent-clr: #373d5b;
+  --br-img: 1em;
+
+  --gradient: rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85);
+
+  --ff-primary: "Bebas Neue", cursive;
+  --ff-secondary: "Prompt", sans-serif;
+
+  --half-rem: 0.5rem;
+  --rem: 1rem;
+
+  --transition-1: all 250ms ease-in-out;
+  --transition-2: all 450ms ease-in-out;
+}
+
+/* Template */
+@media (min-width: 0) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1440px) {
+}
+
+@media (min-width: 2560px) {
+}
