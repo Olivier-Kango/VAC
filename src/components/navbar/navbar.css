@@ -22,6 +22,29 @@
     width: 100%;
   }
 
+  .burger_icon {
+    cursor: pointer;
+    font-size: 3rem;
+    color: var(--light);
+    transition: var(--transition-1);
+    animation: rotate_back 250ms ease-in forwards;
+  }
+
+  .burger_icon:hover {
+    color: var(--light-accent);
+  }
+
+  .burger_icon_active {
+    cursor: pointer;
+    font-size: 3rem;
+    color: var(--btn-accent);
+    animation: rotate_it 250ms ease-in forwards;
+  }
+
+  .hide {
+    display: none;
+  }
+
   /* Nav Links */
   .nav_links {
     display: none;
@@ -35,7 +58,7 @@
   }
 
   .nav_links .nav_item:hover {
-    color: var(--light-accent);
+    color: var(--btn-accent);
   }
 
   /* Burger nav bar */
@@ -50,16 +73,17 @@
 
   .burger_item {
     padding: 0.5rem 4rem;
-    color: var(--light);
+    color: var(--accent-clr);
     text-decoration: none;
     border-top: 1px solid var(--accent-clr);
     border-bottom: 1px solid var(--accent-clr);
-    background-color: rgb(84, 168, 156);
+    background-color: var(--btn-accent);
     transition: var(--transition-1);
   }
 
   .burger_item:hover {
-    background-color: rgb(16, 124, 108);
+    color: var(--btn-accent);
+    background-color: var(--accent-clr);
   }
 }
 
@@ -71,7 +95,9 @@
     display: flex;
   }
 
-  .burger_links {
+  .burger_links,
+  .burger_icon,
+  .burger_icon_active {
     display: none;
   }
 }
@@ -80,4 +106,28 @@
 }
 
 @media (min-width: 2560px) {
+}
+
+@keyframes rotate_it {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(25deg);
+  }
+  100% {
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes rotate_back {
+  0% {
+    transform: rotate(45deg);
+  }
+  50% {
+    transform: rotate(25deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
 }

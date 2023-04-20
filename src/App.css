@@ -4,3 +4,21 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+@keyframes big_in {
+  0% {
+    font-size: 3ch;
+  }
+  /* 25% {
+    transform: scale(1.2);
+  } */
+  50% {
+    font-size: 2.5ch;
+  }
+  /* 75% {
+    transform: scale(1.4);
+  } */
+  100% {
+    font-size: 2ch;
+  }
+}

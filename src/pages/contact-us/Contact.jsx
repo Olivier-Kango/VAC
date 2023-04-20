@@ -57,7 +57,7 @@ const Contact = () => {
             placeholder="Message*"
             required
           ></textarea>
-          <input type="submit" value="Send" />
+          <input type="submit" className="submit_btn" value="Send" />
         </form>
       </div>
     </>

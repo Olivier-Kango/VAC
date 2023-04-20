@@ -26,6 +26,7 @@
   }
 
   .home_header_side h1 {
+    text-align: center;
     color: var(--light);
     font-size: 8vw;
   }
@@ -58,13 +59,33 @@
   }
 
   .home_link {
-    background: white;
+    background: var(--accent-clr);
+    border: 2px solid var(--btn-accent);
+    color: var(--btn-accent);
     padding: var(--half-rem) var(--rem);
     text-decoration: none;
+    transition: 250ms ease-in-out;
+  }
+
+  .home_link:hover {
+    border: 2px solid var(--dark-accent);
+    color: var(--light);
+    background-color: var(--dark-accent);
   }
 
   .home_link:nth-child(1) {
     margin-right: var(--rem);
+  }
+
+  .home_link.home_btn {
+    color: var(--accent-clr);
+    background-color: var(--btn-accent);
+  }
+
+  .home_link.home_btn:hover {
+    border: 2px solid var(--dark-accent);
+    color: var(--light);
+    background-color: var(--dark-accent);
   }
 }
 

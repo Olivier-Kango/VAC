@@ -15,6 +15,9 @@ const AOW = () => {
         <div className="aow_item_container">
           <div className="aow_item_text">
             <h1>Access to Justice</h1>
+            <div className="aow_item_img aow_item_proper">
+              <img src={AOW_asset_1} alt="" />
+            </div>
             <p>
               Access to Justice is mostly about providing paralegal advice for
               refugees, asylum-seekers and immigrants including on issues of
@@ -41,6 +44,9 @@ const AOW = () => {
           </div>
           <div className="aow_item_text">
             <h1>Rights Advocacy</h1>
+            <div className="aow_item_img aow_item_proper">
+              <img src={AOW_asset_3} alt="" />
+            </div>
             <p>
               Rights advocacy is primarily about informing, educating, and
               engaging local communities about asylum-seeker and refugee rights
@@ -61,6 +67,9 @@ const AOW = () => {
         <div className="aow_item_container">
           <div className="aow_item_text">
             <h1>Education and research</h1>
+            <div className="aow_item_img aow_item_proper">
+              <img src={AOW_asset_2} alt="" />
+            </div>
             <p>
               ■ VAC offers English-classes in communities.
               <br />

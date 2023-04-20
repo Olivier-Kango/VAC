@@ -20,26 +20,30 @@ const Services = () => {
             for asylum seekers and refugees. We can assist with asylum
             application appeals, labor disputes and complaints, and denial of
             education and healthcare services. We work closely with other
-            organizations, including Scalabrini; the Legal Resource Centre, UCT
+            organizations, including Scalabrini, the Legal Resource Centre, UCT
             Law Clinic, and CCMA providing referrals as necessary.
             <br />
             <br />
             We encourage everyone to make an appointment with us prior to
-            visiting the office. To do so, contact us at info@vacafrica.org.za
-            or call us at 0614086346. We offer walk-in services every day from
-            10 am until 4 pm
+            visiting the office. To do so, contact us at &nbsp;
+            <strong>info@vacafrica.org.za</strong> &nbsp; or call us at &nbsp;
+            <strong>061 408 6346</strong>. We offer walk-in services every day
+            from &nbsp;
+            <strong>10h00 - 16h00</strong>
           </p>
+          <br />
+
           <Link className="services_btn" to="/contact">
             Book Appointment
           </Link>
         </div>
-        <div className="service_img_container">
+        <div className="service_img_container service_img_1">
           <img src={Service_img_1} alt="" />
         </div>
       </div>
 
       <div className="services_sub_container">
-        <div className="service_img_container">
+        <div className="service_img_container ">
           <img src={Service_img_3} alt="" />
         </div>
         <div className="services_text">

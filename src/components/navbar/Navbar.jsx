@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
+import { faFontAwesomeFlag } from "@fortawesome/free-solid-svg-icons";
+
 import { Link } from "react-router-dom";
 import Logo from "../../assets/logo.png";
 import "./navbar.css";
 
 const Navbar = () => {
+  const [setShow, isShow] = useState(false);
+
+  let toggleNav = () => {
+    isShow(!setShow);
+  };
+
   return (
     <nav>
       <div className="logo_container">
@@ -37,7 +45,14 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <div className="burger_links">
+      <span
+        onClick={toggleNav}
+        className={setShow ? "burger_icon_active" : "burger_icon"}
+      >
+        +
+      </span>
+
+      <div className={setShow ? "burger_links" : "hide"}>
         <div className="burger_links">
           <Link className="burger_item" to="/">
             Home
@@ -58,7 +73,7 @@ const Navbar = () => {
             Projects
           </Link>
           <Link className="burger_item" to="/Team">
-            Our Team
+            Team
           </Link>
           <Link className="burger_item" to="/Contact">
             Contact

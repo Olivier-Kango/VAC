@@ -16,6 +16,10 @@ const About = () => {
       <div className="history_container">
         <div className="history_content">
           <h1>Historical Background Of The Organization</h1>
+
+          <div className="about_img_container about_img_proper">
+            <img src={Img_1} alt="" />
+          </div>
           <div className="about_text_container">
             <p>
               VAC (Voice of Africans for Change) is a community-based non-profit
@@ -37,6 +41,9 @@ const About = () => {
               pre-empty such attacks as opposed to post-violence intervention
               which is what civil society organizations are known to do.
             </p>
+            <div className="about_img_container about_img_proper">
+              <img src={Img_2} alt="" />
+            </div>
           </div>
         </div>
 
@@ -73,6 +80,10 @@ const About = () => {
         </div>
         <div className="history_content">
           <h1>Mission Statement</h1>
+
+          <div className="about_img_container about_img_proper">
+            <img src={Img_4} alt="" />
+          </div>
           <div className="about_text_container">
             <p>
               Voice of Africans for Change (VAC) is a non-governmental

@@ -15,19 +15,35 @@
     text-align: center;
   }
 
+  .team_header h1 {
+    font-size: 15vw;
+  }
+
   .team_content {
+    padding: 0 var(--rem);
+    color: var(--accent-clr);
     height: var(--header-vh);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
+
+  .team_content h1 {
+    animation: big_in 5s ease-in alternate infinite;
+  }
 }
 
 @media (min-width: 768px) {
+  .team_header h1 {
+    font-size: 10vw;
+  }
 }
 
 @media (min-width: 1024px) {
+  .team_header h1 {
+    font-size: 7vw;
+  }
 }
 
 @media (min-width: 1440px) {

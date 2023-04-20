@@ -76,10 +76,10 @@ const Footer = () => {
           <h1>Team</h1>
           <div className="quick_links_sub_container">
             <Link to="/Team" className="quick_links_item">
-              Team Member 1
+              VAC Member 1
             </Link>
             <Link to="/Team" className="quick_links_item">
-              Team Member 2
+              VAC Member 2
             </Link>
           </div>
         </div>
@@ -88,7 +88,7 @@ const Footer = () => {
           <h1>Contact</h1>
           <div className="quick_links_sub_container">
             <Link to="/Contact" className="quick_links_item">
-              Message
+              Send Us A Message
             </Link>
           </div>
         </div>
@@ -97,7 +97,13 @@ const Footer = () => {
         &#x00A9;<p>VAC 2023.</p>
         &nbsp;
         <p>
-          Designed & Engineered by <a href="">Sandile Ndimande</a>{" "}
+          Designed & Engineered by &nbsp;
+          <a
+            href="https://www.linkedin.com/in/sandilendimande/"
+            target="_blank"
+          >
+            Sandile Ndimande
+          </a>
         </p>
       </div>
     </>

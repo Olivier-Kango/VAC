@@ -14,6 +14,10 @@
     text-align: center;
   }
 
+  .projects_header h1 {
+    font-size: 15vw;
+  }
+
   /* Listed projects */
   .projects_listed {
     background-color: var(--accent-clr);
@@ -32,7 +36,7 @@
   .projects > p {
     padding: 0.5rem 1rem;
     text-align: center;
-    background-color: var(--light-accent);
+    background-color: var(--dark-accent);
     color: var(--light);
     text-shadow: 1px 0 black;
   }
@@ -57,12 +61,20 @@
 }
 
 @media (min-width: 768px) {
+  .projects_header h1 {
+    font-size: 10vw;
+  }
+
   .projects_assets_container {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (min-width: 1024px) {
+  .projects_header h1 {
+    font-size: 7 vw;
+  }
+
   .projects_assets_container {
     grid-template-columns: 1fr 1fr 1fr;
   }

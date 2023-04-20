@@ -14,7 +14,7 @@ const Home = () => {
             <p>Working towards legal empowerment for all</p>
 
             <div>
-              <Link className="home_link" to="/About">
+              <Link className="home_link home_btn" to="/About">
                 Read More
               </Link>
 
@@ -41,7 +41,7 @@ const Home = () => {
             <h1>Area Of Work</h1>
             <p>We strive for excellent rights for all</p>
 
-            <Link className="home_link" to="/AOW">
+            <Link className="home_link home_btn" to="/AOW">
               View More
             </Link>
           </div>
