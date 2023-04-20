@@ -1,4 +1,11 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faPaintRoller,
+  faPhone,
+  faEnvelope,
+  faLocationDot,
+} from "@fortawesome/free-solid-svg-icons";
 import "./contact.css";
 
 const Contact = () => {
@@ -11,37 +18,40 @@ const Contact = () => {
 
       <div className="info_form_container">
         <div className="information_container">
-          <div className="contact_item">
-            <span style={{ display: "flex", alignItems: "center" }}>
-              icon
-              <h1>Head Office</h1>
-            </span>
+          <div>
+            <div className="contact_item">
+              <span style={{ display: "flex", alignItems: "center" }}>
+                <FontAwesomeIcon icon={faLocationDot} /> &nbsp;
+                <h1>Head Office</h1>
+              </span>
 
-            <address>
-              128 Adderly Street,
-              <br />
-              Dumbarton house 3rd-floor (room 303),
-              <br />
-              Cape Town,
-              <br />
-              8001
-            </address>
-          </div>
+              <address>
+                128 Adderly Street,
+                <br />
+                Dumbarton house 3rd-floor (room 303),
+                <br />
+                Cape Town,
+                <br />
+                8001
+              </address>
+            </div>
 
-          <div className="contact_item">
-            <span style={{ display: "flex", alignItems: "center" }}>
-              icon
-              <h1>Phone Numbers</h1>
-            </span>
-            <p>061 408 6346</p>
-          </div>
+            <div className="contact_item">
+              <span style={{ display: "flex", alignItems: "center" }}>
+                <FontAwesomeIcon icon={faPhone} shake />
+                &nbsp;
+                <h1>Phone Numbers</h1>
+              </span>
+              <p>061 408 6346</p>
+            </div>
 
-          <div className="contact_item">
-            <span style={{ display: "flex", alignItems: "center" }}>
-              icon
-              <h1>Email Address</h1>
-            </span>
-            <p>info@vacafrica.org.za</p>
+            <div className="contact_item">
+              <span style={{ display: "flex", alignItems: "center" }}>
+                <FontAwesomeIcon icon={faEnvelope} /> &nbsp;
+                <h1>Email Address</h1>
+              </span>
+              <p>info@vacafrica.org.za</p>
+            </div>
           </div>
         </div>
 

@@ -27,7 +27,7 @@
     padding: var(--rem);
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   }
 
   .information_container h1 {
@@ -87,6 +87,10 @@
     align-items: center;
     justify-content: center;
     color: var(--light);
+  }
+
+  .information_container {
+    align-items: center;
   }
 
   .contact_section h1 {
