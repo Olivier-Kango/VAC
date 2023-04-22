@@ -14,10 +14,10 @@ h1 {
   --main-clr: #000000;
   --light: #fffffff3;
   --light-accent: #c9c0c0f3;
-  --dark-accent: rgb(104, 102, 102);
+  --dark-accent: rgb(82, 80, 80);
   --accent-clr: #151a36;
 
-  --btn-accent: #f9f871;
+  --btn-accent: #d1cbcbf3;
   --br-img: 1em;
 
   --gradient: rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85);

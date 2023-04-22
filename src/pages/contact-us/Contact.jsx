@@ -26,13 +26,13 @@ const Contact = () => {
               </span>
 
               <address>
-                128 Adderly Street,
+                11 Robert Sabukwe Rd,
                 <br />
-                Dumbarton house 3rd-floor (room 303),
+                Bellville Cape Town,
                 <br />
-                Cape Town,
+                7530
                 <br />
-                8001
+                Cape Leisure Land Unit 11
               </address>
             </div>
 
@@ -40,7 +40,7 @@ const Contact = () => {
               <span style={{ display: "flex", alignItems: "center" }}>
                 <FontAwesomeIcon icon={faPhone} shake />
                 &nbsp;
-                <h1>Phone Numbers</h1>
+                <h1>Phone Number</h1>
               </span>
               <p>061 408 6346</p>
             </div>

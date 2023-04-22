@@ -19,24 +19,30 @@
     font-size: 15vw;
   }
 
-  .team_content {
+  .team_cards_content {
     padding: 0 var(--rem);
     color: var(--accent-clr);
-    height: var(--header-vh);
-    display: flex;
+    height: 100%;
+    padding: 2rem;
+    display: grid;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    justify-items: center;
+    gap: var(--rem);
+    grid-template-columns: 100%;
   }
 
-  .team_content h1 {
+  /* .team_content h1 {
     animation: big_in 5s ease-in alternate infinite;
-  }
+  } */
 }
 
 @media (min-width: 768px) {
   .team_header h1 {
     font-size: 10vw;
+  }
+
+  .team_cards_content {
+    grid-template-columns: 50% 50%;
   }
 }
 

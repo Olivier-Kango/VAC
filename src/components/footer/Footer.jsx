@@ -76,10 +76,10 @@ const Footer = () => {
           <h1>Team</h1>
           <div className="quick_links_sub_container">
             <Link to="/Team" className="quick_links_item">
-              VAC Member 1
+              Co-founder of VAC
             </Link>
             <Link to="/Team" className="quick_links_item">
-              VAC Member 2
+              Director of VAC
             </Link>
           </div>
         </div>

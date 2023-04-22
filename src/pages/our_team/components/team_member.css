@@ -1,0 +1,47 @@
+@media (min-width: 0) {
+  .member_container {
+    box-shadow: 0 0 2px 1px black;
+    height: 100%;
+    width: 100%;
+  }
+
+  .member_card_img {
+    width: 100%;
+  }
+
+  .member_card_content {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+  }
+
+  .member_card_img img {
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .member_card_content a {
+    text-decoration: none;
+    padding: var(--rem);
+    margin: var(--half-rem) 0;
+    color: var(--light);
+    background-color: var(--dark-accent);
+    transition: var(--transition-1);
+  }
+
+  .member_card_content a:hover {
+    background-color: var(--accent-clr);
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1440px) {
+}
+
+@media (min-width: 2560px) {
+}
