@@ -61,6 +61,12 @@
     color: var(--btn-accent);
   }
 
+  .nav_item_activated {
+    color: var(--btn-accent);
+    text-decoration: none;
+    transition: var(--transition-1);
+  }
+
   /* Burger nav bar */
   .burger_links {
     display: flex;
@@ -83,6 +89,15 @@
 
   .burger_item:hover {
     color: var(--btn-accent);
+    background-color: var(--accent-clr);
+  }
+
+  .burger_item_active {
+    padding: 0.5rem 4rem;
+    color: var(--btn-accent);
+    text-decoration: none;
+    border-top: 1px solid var(--accent-clr);
+    border-bottom: 1px solid var(--accent-clr);
     background-color: var(--accent-clr);
   }
 }

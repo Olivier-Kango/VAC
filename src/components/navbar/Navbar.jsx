@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { faFontAwesomeFlag } from "@fortawesome/free-solid-svg-icons";
 
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Logo from "../../assets/logo.png";
 import "./navbar.css";
 
@@ -19,30 +19,65 @@ const Navbar = () => {
       </div>
 
       <div className="nav_links">
-        <Link className="nav_item" to="/">
+        <NavLink className="nav_item" to="/">
           Home
-        </Link>
-        <Link className="nav_item" to="/About">
+        </NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            isActive ? "nav_item_activated" : "nav_item"
+          }
+          to="/About"
+        >
           About
-        </Link>
-        <Link className="nav_item" to="/Gallery">
+        </NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            isActive ? "nav_item_activated" : "nav_item"
+          }
+          to="/Gallery"
+        >
           Gallery
-        </Link>
-        <Link className="nav_item" to="/AOW">
+        </NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            isActive ? "nav_item_activated" : "nav_item"
+          }
+          to="/AOW"
+        >
           AOW
-        </Link>
-        <Link className="nav_item" to="/services">
+        </NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            isActive ? "nav_item_activated" : "nav_item"
+          }
+          to="/services"
+        >
           Services
-        </Link>
-        <Link className="nav_item" to="/Projects">
+        </NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            isActive ? "nav_item_activated" : "nav_item"
+          }
+          to="/Projects"
+        >
           Projects
-        </Link>
-        <Link className="nav_item" to="/Team">
+        </NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            isActive ? "nav_item_activated" : "nav_item"
+          }
+          to="/Team"
+        >
           Our Team
-        </Link>
-        <Link className="nav_item" to="/Contact">
+        </NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            isActive ? "nav_item_activated" : "nav_item"
+          }
+          to="/Contact"
+        >
           Contact
-        </Link>
+        </NavLink>
       </div>
 
       <span
@@ -54,30 +89,70 @@ const Navbar = () => {
 
       <div className={setShow ? "burger_links" : "hide"}>
         <div className="burger_links">
-          <Link className="burger_item" to="/">
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "burger_item_active" : "burger_item"
+            }
+            to="/"
+          >
             Home
-          </Link>
-          <Link className="burger_item" to="/About">
+          </NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "burger_item_active" : "burger_item"
+            }
+            to="/About"
+          >
             About
-          </Link>
-          <Link className="burger_item" to="/Gallery">
+          </NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "burger_item_active" : "burger_item"
+            }
+            to="/Gallery"
+          >
             Gallery
-          </Link>
-          <Link className="burger_item" to="/AOW">
+          </NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "burger_item_active" : "burger_item"
+            }
+            to="/AOW"
+          >
             AOW
-          </Link>
-          <Link className="burger_item" to="/services">
+          </NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "burger_item_active" : "burger_item"
+            }
+            to="/services"
+          >
             Services
-          </Link>
-          <Link className="burger_item" to="/Projects">
+          </NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "burger_item_active" : "burger_item"
+            }
+            to="/Projects"
+          >
             Projects
-          </Link>
-          <Link className="burger_item" to="/Team">
+          </NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "burger_item_active" : "burger_item"
+            }
+            to="/Team"
+          >
             Team
-          </Link>
-          <Link className="burger_item" to="/Contact">
+          </NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "burger_item_active" : "burger_item"
+            }
+            to="/Contact"
+          >
             Contact
-          </Link>
+          </NavLink>
         </div>
       </div>
     </nav>
