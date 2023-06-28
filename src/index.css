@@ -20,7 +20,7 @@ h1 {
   --btn-accent: #d1cbcbf3;
   --br-img: 1em;
 
-  --gradient: rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85);
+  --gradient: var(--dark-accent), rgba(0, 0, 0, 0.85);
 
   --ff-primary: "Roboto Condensed", sans-serif;
   --ff-secondary: "Roboto Condensed", sans-serif;

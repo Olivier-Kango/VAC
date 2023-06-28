@@ -6,6 +6,20 @@ import Logo from "../../assets/logo.png";
 import "./navbar.css";
 
 const Navbar = () => {
+  //Changing navbar color on scroll
+  const [navbar, setNavbar] = useState(false);
+
+  const changeBackground = () => {
+    if (window.scrollY >= 10) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeBackground);
+
+  //Toggling the navbar items
   const [setShow, isShow] = useState(false);
 
   let toggleNav = () => {
@@ -13,13 +27,18 @@ const Navbar = () => {
   };
 
   return (
-    <nav>
+    <nav className={navbar ? "nav active" : "nav"}>
       <div className="logo_container">
         <img src={Logo} alt="VAC_Logo" />
       </div>
 
       <div className="nav_links">
-        <NavLink className="nav_item" to="/">
+        <NavLink
+          className={({ isActive }) =>
+            isActive ? "nav_item_activated" : "nav_item"
+          }
+          to="/"
+        >
           Home
         </NavLink>
         <NavLink

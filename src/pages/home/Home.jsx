@@ -6,7 +6,7 @@ import "./home.css";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <div className="home_header_main_container">
         <div className="home_header_side">
           <div className="home_header_side_content">
@@ -50,7 +50,7 @@ const Home = () => {
 
       {/* Para Img */}
       <div className="para_img_1"></div>
-    </div>
+    </>
   );
 };
 
