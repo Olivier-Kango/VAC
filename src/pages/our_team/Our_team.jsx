@@ -32,7 +32,7 @@ const Our_team = () => {
         />
         <Team_member
           src={Image_1}
-          href={"mailto: crispin@vacafrica.co.za"}
+          href={"mailto: jean-paul@vacafrica.co.za"}
           name="Jean Paul Luamba"
           position="Board Member"
         />
