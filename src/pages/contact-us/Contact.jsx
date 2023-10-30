@@ -67,6 +67,8 @@ const Contact = () => {
             placeholder="Message*"
             required
           ></textarea>
+          <a href="mailto:info@vacafrica.co.za">Send</a>
+
           <input type="submit" className="submit_btn" value="Send" />
         </form>
       </div>
