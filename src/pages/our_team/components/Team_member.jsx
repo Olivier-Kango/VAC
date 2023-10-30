@@ -1,7 +1,7 @@
 import React from "react";
 import "./team_member.css";
 
-const Team_member = ({ src, name, position }) => {
+const Team_member = ({ src, href, name, position }) => {
   return (
     <div className="member_div">
       <div className="member_card_img">
@@ -11,7 +11,7 @@ const Team_member = ({ src, name, position }) => {
         <h1>{name}</h1>
         <p>{position}</p>
 
-        <a href="mailto: info@vacafrica.org.za" title="Email">
+        <a href={href} title="Email">
           Contact
         </a>
       </div>
