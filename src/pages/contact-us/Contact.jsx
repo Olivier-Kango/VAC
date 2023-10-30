@@ -43,7 +43,9 @@ const Contact = () => {
                 <h1>Socials</h1>
               </span>
               <p>WhatsApp: 081 660 6987</p>
-              <a href="https://instagram.com/voicesofafrican4change?igshid=MzRlODBiNWFlZA==">Instagram</a>
+              <a href="https://instagram.com/voicesofafrican4change?igshid=MzRlODBiNWFlZA==" target="_blank">Instagram</a>
+            <a href="https://twitter.com/VAfrican4Change">Twitter</a>
+              <a href="https://www.linkedin.com/in/voices-of-african-for-change-a34179295/" target="_blank">LinkedIn</a>
             </div>
 
             <div className="contact_item">
