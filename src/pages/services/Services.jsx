@@ -26,8 +26,8 @@ const Services = () => {
             <br />
             We encourage everyone to make an appointment with us prior to
             visiting the office. To do so, contact us at &nbsp;
-            <strong>info@vacafrica.org.za</strong> &nbsp; or call us at &nbsp;
-            <strong>061 408 6346</strong>. We offer walk-in services every day
+            <strong>info@vacafrica.co.za</strong>.
+            < We offer walk-in services every day
             from &nbsp;
             <strong>10h00 - 16h00</strong>
           </p>
