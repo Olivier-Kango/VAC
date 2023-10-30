@@ -26,7 +26,7 @@ const Contact = () => {
               </span>
 
               <address>
-                11 Robert Sabukwe Rd,
+                11 Robert Sobukwe Rd,
                 <br />
                 Bellville Cape Town,
                 <br />
@@ -40,9 +40,9 @@ const Contact = () => {
               <span style={{ display: "flex", alignItems: "center" }}>
                 <FontAwesomeIcon icon={faPhone} shake />
                 &nbsp;
-                <h1>Phone Number</h1>
+                <h1>Socials</h1>
               </span>
-              <p>071 017 4642</p>
+              <a href="">Instagram</a>
             </div>
 
             <div className="contact_item">
@@ -50,7 +50,7 @@ const Contact = () => {
                 <FontAwesomeIcon icon={faEnvelope} /> &nbsp;
                 <h1>Email Address</h1>
               </span>
-              <p>info@vacafrica.org.za</p>
+              <p>info@vacafrica.co.za</p>
             </div>
           </div>
         </div>
