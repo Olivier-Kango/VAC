@@ -30,7 +30,7 @@ const Contact = () => {
                 <br />
                 Bellville Cape Town,
                 <br />
-                7530
+                7530,
                 <br />
                 Cape Leisure Land Unit 11
               </address>
