@@ -16,7 +16,7 @@ const Services = () => {
       <div className="services_sub_container">
         <div className="services_text">
           <p>
-            VAC offers free paralegal advice at our headquarters in Cape Town
+            VAC offers on the house paralegal advice at our headquarters in Cape Town
             for asylum seekers and refugees. We can assist with asylum
             application appeals, labor disputes and complaints, and denial of
             education and healthcare services. We work closely with other
