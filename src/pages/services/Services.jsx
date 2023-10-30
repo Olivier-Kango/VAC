@@ -49,7 +49,7 @@ const Services = () => {
         <div className="services_text">
           <h1>Documentations and Appeals</h1>
           <p>
-            VAC staff can assist with all questions pertaining to immigration
+            VAC staff can help with all questions pertaining to immigration
             documentation. Our paralegal services include:
           </p>
           <p>■ Appeals against the rejection of Refugee Status</p>
