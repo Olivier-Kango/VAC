@@ -42,7 +42,7 @@ const Contact = () => {
                 &nbsp;
                 <h1>Socials</h1>
               </span>
-              <a href="">Instagram</a>
+              <a href="https://instagram.com/voicesofafrican4change?igshid=MzRlODBiNWFlZA==">Instagram</a>
             </div>
 
             <div className="contact_item">
