@@ -14,13 +14,27 @@ const Our_team = () => {
       <div className="team_cards_content">
         <Team_member
           src={Image_2}
-          name="Germain Kalombo Ntambue"
-          position="Co-founder of VAC"
+          href={"mailto: bernard@vacafrica.co.za"}
+          name="Bernard Toyambi"
+          position="Founder of VAC"
         />
         <Team_member
           src={Image_1}
+          href={"mailto: crispin@vacafrica.co.za"}
           name="Ngozo Crispin Kassarombo"
-          position="Director"
+          position="Board Member"
+        />
+        <Team_member
+          src={Image_1}
+          href={"mailto: bob@vacafrica.co.za"}
+          name="Bob"
+          position="Board Member"
+        />
+        <Team_member
+          src={Image_1}
+          href={"mailto: crispin@vacafrica.co.za"}
+          name="Jean Paul Luamba"
+          position="Board Member"
         />
       </div>
     </>
