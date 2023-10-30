@@ -44,8 +44,10 @@ const Contact = () => {
               </span>
               <p>WhatsApp: 081 660 6987</p>
               <a href="https://instagram.com/voicesofafrican4change?igshid=MzRlODBiNWFlZA==" target="_blank">Instagram</a>
-<a target="_blank" href="https://twitter.com/VAfrican4Change">Twitter</a>
-<a href="https://www.linkedin.com/in/voices-of-african-for-change-a34179295/" target="_blank">LinkedIn</a>
+&nbsp;
+              <a target="_blank" href="https://twitter.com/VAfrican4Change">Twitter</a>
+&nbsp;
+              <a href="https://www.linkedin.com/in/voices-of-african-for-change-a34179295/" target="_blank">LinkedIn</a>
 
            </div>
 
