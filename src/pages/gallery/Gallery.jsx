@@ -17,7 +17,7 @@ const Gallery = () => {
         <img src={Image_1} alt="Image 1" />
     </div>
     <div className="grid-item">
-        <img src={Image_2} alt="Image 2" />
+        <img src={Image_1} alt="Image 2" />
     </div>
 </div>
 
