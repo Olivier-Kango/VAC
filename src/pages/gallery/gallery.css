@@ -21,21 +21,18 @@
   }
 
   .gallery_content {
-    padding: 0 var(--rem);
+            padding: 0 var(--rem);
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 0.5rem;
         }
 
         .grid-item {
-            width: 5rem;
+            padding: 0.25rem;
         }
 
         .grid-item img {
-            width: 100%;
-            object-fit: cover;
-          aspect-ratio: 1/2;
-            
+            width: 100%;           
         }
   }
 
