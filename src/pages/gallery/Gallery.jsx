@@ -72,9 +72,8 @@ const Gallery = () => {
     </div>
      <div className="grid-item">
         <img src={Image_15} alt="Image 1" />
-    </div
+    </div>
 </div>
-
     </>
   );
 };
