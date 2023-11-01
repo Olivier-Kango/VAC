@@ -22,18 +22,24 @@
 
   .gallery_content {
     padding: 0 var(--rem);
-    height: var(--header-vh);
-    color: var(--accent-clr);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+           .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+
+        .grid-item {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .grid-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
   }
 
-  .gallery_content h1 {
-    animation: big_in 5s ease-in alternate infinite;
-  }
-}
 
 @media (min-width: 768px) {
   .gallery_header h1 {
