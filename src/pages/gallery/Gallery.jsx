@@ -1,5 +1,7 @@
 import React from "react";
 import "./gallery.css";
+import Image_1 from "./assets/Img_1.jpg";
+
 
 const Gallery = () => {
   return (
@@ -11,10 +13,10 @@ const Gallery = () => {
       <div className="gallery_content">
      
            <div className="grid-item">
-            <img src="/assets/Img_1.jpg" alt="Image 1">
+            <img src={Image_1} alt="Image 1">
         </div>
         <div className="grid-item">
-            <img src="/assets/Img_1.jpg" alt="Image 2">
+            <img src={Image_1} alt="Image 2">
         </div>
      
       </div>
