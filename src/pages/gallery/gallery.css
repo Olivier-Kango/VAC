@@ -28,7 +28,7 @@
         }
 
         .grid-item {
-            height: 5rem;
+            height: fit-content;
             padding: 0.25rem;
         }
 
