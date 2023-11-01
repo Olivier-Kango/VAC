@@ -5,6 +5,16 @@ import Image_2 from "./assets/Img_2.jpg";
 import Image_3 from "./assets/Img_3.jpg";
 import Image_4 from "./assets/Img_4.jpg";
 import Image_5 from "./assets/Img_5.jpg";
+import Image_6 from "./assets/Img_1.jpg";
+import Image_7 from "./assets/Img_2.jpg";
+import Image_8 from "./assets/Img_3.jpg";
+import Image_9 from "./assets/Img_4.jpg";
+import Image_10 from "./assets/Img_5.jpg";
+import Image_11 from "./assets/Img_1.jpg";
+import Image_12 from "./assets/Img_2.jpg";
+import Image_13 from "./assets/Img_3.jpg";
+import Image_14 from "./assets/Img_4.jpg";
+import Image_15 from "./assets/Img_5.jpg";
 
 
 const Gallery = () => {
