@@ -19,6 +19,36 @@ const Gallery = () => {
     <div className="grid-item">
         <img src={Image_1} alt="Image 2" />
     </div>
+   <div className="grid-item">
+        <img src={Image_1} alt="Image 1" />
+    </div>
+    <div className="grid-item">
+        <img src={Image_1} alt="Image 2" />
+    </div>
+   <div className="grid-item">
+        <img src={Image_1} alt="Image 1" />
+    </div>
+    <div className="grid-item">
+        <img src={Image_1} alt="Image 2" />
+    </div>
+   <div className="grid-item">
+        <img src={Image_1} alt="Image 1" />
+    </div>
+    <div className="grid-item">
+        <img src={Image_1} alt="Image 2" />
+    </div>
+   <div className="grid-item">
+        <img src={Image_1} alt="Image 1" />
+    </div>
+    <div className="grid-item">
+        <img src={Image_1} alt="Image 2" />
+    </div>
+   <div className="grid-item">
+        <img src={Image_1} alt="Image 1" />
+    </div>
+    <div className="grid-item">
+        <img src={Image_1} alt="Image 2" />
+    </div>
 </div>
 
     </>
