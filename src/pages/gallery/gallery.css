@@ -21,10 +21,10 @@
   }
 
   .gallery_content {
-            padding: 0 var(--rem);
+            padding: var(--rem);
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 0.5rem;
+            gap: 0.25rem;
         }
 
         .grid-item {
