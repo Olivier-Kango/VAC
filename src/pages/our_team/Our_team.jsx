@@ -23,20 +23,20 @@ const Our_team = () => {
         <Team_member
           src={Image_2}
           href={"mailto: crispin@vacafrica.co.za"}
-          name="Ngozo Crispin Kassarombo"
-          position="Board Member"
+          name="Ngozo Crispin"
+          position="Director"
         />
         <Team_member
           src={Image_3}
           href={"mailto: bob@vacafrica.co.za"}
-          name="Bob"
-          position="Board Member"
+          name="Bob Wande Ndienge"
+          position="Co-ordinator"
         />
         <Team_member
           src={Image_4}
           href={"mailto: jean-paul@vacafrica.co.za"}
-          name="Jean Paul Luamba"
-          position="Board Member"
+          name="Jean Paul"
+          position="Media Director"
         />
       </div>
     </>
